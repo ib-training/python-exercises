@@ -46,12 +46,6 @@ class TestNumbersAndStrings(unittest.TestCase):
         for i in range(2,11):
             self.assertFalse(numbers_and_strings.is_divisible(11,i))
 
-    def test_gcd(self):
-        self.assertEqual(numbers_and_strings.gcd(2, 3), 1)
-        self.assertEqual(numbers_and_strings.gcd(12, 6), 6)
-        self.assertEqual(numbers_and_strings.gcd(13, 17), 1)
-        self.assertEqual(numbers_and_strings.gcd(120, 36), 12)
-    
     def test_radians(self):
         self.assertAlmostEqual(numbers_and_strings.radians(0), 0, places=5)
         self.assertAlmostEqual(numbers_and_strings.radians(90), math.pi/2, places=5)

@@ -50,21 +50,6 @@ def is_divisible(n, r):
     """
     raise NotImplementedError
 
-def is_divisible(n, r):
-    """
-    return True if n is divisible by r 
-    return False otherwise
-    """
-    raise NotImplementedError
-
-def gcd(a,b):
-    """
-    Return the greatest common divisor of a and b
-
-    Hint: Google for Euklidian algorithm
-    """
-    raise NotImplementedError
-
 def radians(degrees):
     """
     Convert degrees to radians ("Grad in Bodenmaß")

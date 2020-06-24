@@ -46,7 +46,12 @@ class TestIfAndLoops(unittest.TestCase):
         self.assertEqual(0, if_and_loops.summation_for(5, 3), 0)
         self.assertEqual(3 + 4 + 5, if_and_loops.summation_for(3, 5))
 
-       
+    def test_gcd(self):
+        self.assertEqual(numbers_and_strings.gcd(2, 3), 1)
+        self.assertEqual(numbers_and_strings.gcd(12, 6), 6)
+        self.assertEqual(numbers_and_strings.gcd(13, 17), 1)
+        self.assertEqual(numbers_and_strings.gcd(120, 36), 12)   
+
     def test_is_vowel(self):
         self.assertTrue(if_and_loops.is_vowel('a'))
         self.assertTrue(if_and_loops.is_vowel('e'))
